@@ -1,0 +1,34 @@
+.box {
+    height: 450px;
+    width: 750px;
+    background-color: #000;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 22px;
+    overflow: hidden;
+  }
+  .box img {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+  }
+  .box img:hover {
+    transform: scale(1.1);
+    opacity: 60%;
+  }
+  .box > a{
+    color: #fff;
+    font-size: 22px;
+    opacity: 0%;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    text-align: center;
+    text-decoration: none;
+  }
+  .box > a:hover{
+    cursor: pointer !important;
+  }
+  .box:hover a{
+    opacity: 100%;
+  }
